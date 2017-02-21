@@ -1,67 +1,145 @@
-<!DOCTYPE html>
 <html>
+    <title>
+        home
+    </title>
     <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
- 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <meta charset="utf-8" />
-        <title>Home</title>
-        
-        <!-- Google Webfonts and our stylesheet -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Open+Sans:300" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
-        
-        <!--[if lt IE 9]>
-          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-    </head>
-    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+        <style>
+            .navbar
+                {
+                    background:black;
+                    border-radius:0em;
+                    margin: 0;
+                }
+            body
+            {
+                background-color: grey;
+            }
+            #tagline
+                {
+                    font-size:15px;
+                    color: white;
+                    position: relative;
+                    font-size: 20px;
+                     -webkit-transition: color 2s; /* For Safari 3.1 to 6.0 */
+                    transition: color 2s;
+                    
+                }
+            #notice
+            {
+                font-size: 40px;
+                text-align: center;
+            }
+            #value
+                {
+                    font-size: 20px;
+                }
+            .frontface1
+                {
+                    background: black;
+                    margin-bottom: 0px;
+
+                }
+            li
+                {
+                    display:block;
+                }
+            #nameblock
+                {
+                    font-size: 40px;
+                    color:green;
+                    text-align: center;    
+                }
+            .footer
+            { 
+                background: black;
+                color: green;
+                margin-bottom: 0;
+                margin-top:0;
+                font-size: 20;
+                
+            }
+            a
+            {
+                text-decoration: none;
+                color: white;
+            }
+            
+            #tagline:hover
+            
+            {
+               color : green;
+            }
+            .forbg
+            {
+                background-color: grey;
+            }
+        </style>
+        </head>
     <body>
-		
-		<div id="impress" class="impress-not-supported">
-			
-			<div id="intro" class="step" data-x="0" data-y="0">
-		        <h2>Me</h2>
-		        <p>An Enginner<br />TCSer<br />Linux Lover<br /> </p>
-		        <img src="assets/img/nexus_1.jpg" width="232" height="300" alt="Wlug-logo" />
-		    </div>
-		    
-		    <div id="simplicity" class="step" data-x="1100" data-y="1200" data-scale="1.8" data-rotate="190">
-		        <h2>Acadeics</h2>
-		        <p>Polytechnic To Walchand - One Hell of a journey</br> Have a look   </p>
-		        <img src="assets/img/nexus_2.jpg" width="289" height="300" alt="Galaxy Nexus" />
-		    </div>
-		    
-		    <div id="connect" class="step" data-x="-300" data-y="600" data-scale="0.2" data-rotate="270">
-		        <h2>Projects</h2>
-		        <p>Not so facinating.But it wont cost anything to have a look. </p>
-		        <img src="assets/img/nexus_3.jpg" width="558" height="329" alt="Galaxy Nexus" />
-		    </div>
-		    
-		    <div id="upload" class="step" data-x="-200" data-y="1500" data-rotate="180">
-		        <h2>Peronal profile</h2>
-		        <p>Know me personally</p>
-		        <img src="assets/img/nexus_4.jpg" width="248" height="510" alt="Galaxy Nexus" />
-		    </div>
-		    
-		    <div id="music" class="step" data-x="-1200" data-y="1000" data-scale="0.8" data-rotate="270">
-		        <h2>Connect With me</h2>
-		        <p>Just A click Away</p>
-		        <img src="assets/img/nexus_5.jpg" width="570" height="389" alt="Galaxy Nexus" />
-		    </div>
-		    
-		</div>
+        <div class="container-fluid">
 
-		<a id="arrowLeft" class="arrow">&lt;</a>
-		<a id="arrowRight" class="arrow">&gt;</a>
-		<div> Hello</div>
+         <div class="row">
+           <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 navbar">
+         </div>
 
-      
-        <!-- JavaScript includes -->
-		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-		<script src="assets/js/impress.js"></script>
-		<script src="assets/js/script.js"></script>
+        </div>
+            <div class="row">
+                 <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 frontface1">
+                    </br>
+                    </br> 
+                    </br>
+                    </br> 
+                    </br>
+                    
+                    <p id="nameblock"><strong>Sachin Gaikwad</strong></p>
+                    </br> 
+                     <p id="inner"><p align="center" id="tagline">
+                        <strong>
+                           <i class="fa fa-keyboard-o" aria-hidden="true"></i> Programmer <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                            |<i class="fa fa-empire" aria-hidden="true"></i> Engineer <i class="fa fa-empire" aria-hidden="true"></i> |
+                            <i class="fa fa-heart" aria-hidden="true"></i> Lover <i class="fa fa-heart" aria-hidden="true"></i>
+                        </strong>
+                    </p></p>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 footer">
+                     </br>
+                    </br></br>
+                   
+                   
+                    <p id="notice">Coming Soon....</br><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></p>
+                    
+                   </br></br> </br> 
+                 </br>
+                  <div class="row">
+                      
+                                        
 
+                      <div class="col-sm-5 col-xs-5 col-md-5 col-lg-5 footer"> </div>
+                      <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4 "> 
+                         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                          <a href="https://www.facebook.com/ranjit.sawant.925"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
+                            &nbsp;&nbsp; <a href="https://twitter.com/GaikwadSachin15"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a>
+                           &nbsp;&nbsp;<a href="https://github.com/sachin1g"><i class="fa fa-github fa-1x" aria-hidden="true"></i></a>
+
+                      </div>
+
+                    
+                    
+                </div>
+
+                </div>
+            </div>    
+                      
+
+        </div>
     </body>
-</html>
 
+</html>
