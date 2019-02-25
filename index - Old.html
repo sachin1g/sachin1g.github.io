@@ -11,37 +11,6 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
-			<script>
-		
-// Set the date we're counting down to
-var countDownDate = new Date("Apr 14, 2019 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get todays date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
             <style>
             
                 .navbar
@@ -100,9 +69,7 @@ var x = setInterval(function() {
   bottom: 0;
   right: 0;
   overflow: auto;
-                        background-image:url("dw.png");
-						background-size:cover;
-						background-position: center;
+                        background-image: url("dw.png");
                     background-repeat: no-repeat;
                     background-size: cover;
                         
@@ -171,14 +138,7 @@ var x = setInterval(function() {
                     position: absolute;
                     bottom: 0;
                     left:45%;
-                }                   
-						#demo{
-						color:#7f8288;
-						padding-left: 125px;
-						font-size:60px;
-				
-						border:solid outset;
-						}
+                }                            
             </style>
             </head>
         <body>
@@ -187,15 +147,25 @@ var x = setInterval(function() {
            
                 <div class="row">
                      <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 frontface1">
-                    
+                        </br>
                         </br> 
                         </br>
+                        </br> 
+                        </br>
+<div class="navbar "><ul class="hvr-grow"><li class="hvr-grow">Home</li>
+    <li>Profile</li><li>Personal</li>
+    <li>Projects</li><li>Contact</li>
+</ul> </div>
 
-<p id="nameblock">                        </br> 
-<p  id="tagline" id="demo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="stark_logo.png" alt="stark_logo" style="width:200px;height:200px;">
-                        </p></br></br></br> <p id="demo" align="left"></p>
+<p id="nameblock"><span  style="color:green"><strong>Sachin </strong></span><span  style="color:green"><strong> Gaikwad</strong></span></p>
+                        </br> 
+<p align="center" id="tagline">
+                            <strong>
+                               <i class="fa fa-keyboard-o" aria-hidden="true"></i> Programmer <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                                |<i class="fa fa-empire" aria-hidden="true"></i> Engineer <i class="fa fa-empire" aria-hidden="true"></i> |
+                                <i class="fa fa-heart" aria-hidden="true"></i> Linux Lover <i class="fa fa-heart" aria-hidden="true"></i>
+                            </strong>
+                        </p>
                                 <div class="footer">                                                                                                
 <a href="https://www.facebook.com/ranjit.sawant.925"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                                 &nbsp;&nbsp; <a href="https://twitter.com/GaikwadSachin15"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
@@ -204,7 +174,6 @@ var x = setInterval(function() {
                 </div>
 
             </div>
-			
 
         </body>
 
