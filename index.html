@@ -21,6 +21,7 @@
                         position: fixed;
                         left: 0;
                         top:25%;
+						
                     }
                 li{
                     border-bottom:1px groove grey;
@@ -34,11 +35,12 @@
                 #tagline
                     {
                         font-size:15px;
-                        color: darkslategrey;
+                        color: grey;
                         position: relative;
                         font-size: 20px;
                          -webkit-transition: color 2s; /* For Safari 3.1 to 6.0 */
                         transition: color 2s;
+						z-index:2;
 
                     }
                 #notice
@@ -82,7 +84,7 @@
                 li
                     {
                         display:block;
-                        color: ghostwhite                   
+                        color: white                   
                         margin: 5px;
 						font-size:100%;
 						
@@ -93,7 +95,7 @@
                     }
 					li:hover{
 					
-					color:grey;
+					color:green;
 					}
                
                 #nameblock
@@ -110,11 +112,15 @@
                     text-decoration: none;
                     color: white;
                 }
+				.navbar a:hover{
+				color:white;
+				text-decoration: none;
+				}
 
                 #tagline:hover
 
                 {
-                   color : green;
+                   color : black;
                 }
                 .forbg
                 {
@@ -124,7 +130,17 @@
                     position: absolute;
                     bottom: 0;
                     left:45%;
-                }                            
+					color:red;
+                }        
+
+					#nameblock img {
+					height:20%;
+					width:10%;
+					border-radius:5em;
+					align:center;
+					}
+					strong i {
+						color:black;
             </style>
             </head>
         <body>
@@ -144,9 +160,9 @@
 				</ul> 
 </div>
 
-<p id="nameblock">
-	<span  style="color:green"><strong>Sachin </strong></span>
-	<span  style="color:green"><strong> Gaikwad</strong></span>
+<p id="nameblock"><img src="profile.jpg"><br>
+	<span  style="color:Black"><strong>Sachin </strong></span>
+	<span  style="color:Black"><strong> Gaikwad</strong></span>
 </p>
 </br> 
 <p align="center" id="tagline">
@@ -157,7 +173,7 @@
                             </strong>
                         </p>
                                 <div class="footer">                                                                                                
-<a href="https://www.facebook.com/ranjit.sawant.925" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+<a href="https://www.facebook.com/ranjit.sawant.925" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="false"></i></a>
                                 &nbsp;&nbsp; <a href="https://twitter.com/GaikwadSachin15" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
                                &nbsp;&nbsp;<a href="https://github.com/sachin1g"  target="_blank"><i class="fa fa-github fa-2x center-con" aria-hidden="true"></i></a></div>
                     </div>
