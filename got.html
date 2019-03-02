@@ -32,8 +32,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + "D:" + hours + "H:"
+  + minutes + "M:" + seconds + "S";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
@@ -173,11 +173,11 @@ var x = setInterval(function() {
                     left:45%;
                 }                   
 						#demo{
-						color:#7f8288;
-						padding-left: 125px;
-						font-size:60px;
+						color:White;
+						
+						font-size:7em;
 				
-						border:solid outset;
+					
 						}
             </style>
             </head>
@@ -192,10 +192,7 @@ var x = setInterval(function() {
                         </br>
 
 <p id="nameblock">                        </br> 
-<p  id="tagline" id="demo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="sachin1g.github.io/stark_logo.png" alt="stark_logo" style="width:200px;height:200px;">
-                        </p></br></br></br> <p id="demo" align="left"></p>
+<p id="demo" align="center"></p>
                                 <div class="footer">                                                                                                
 <a href="https://www.facebook.com/ranjit.sawant.925"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                                 &nbsp;&nbsp; <a href="https://twitter.com/GaikwadSachin15"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
