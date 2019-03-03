@@ -1,6 +1,6 @@
 <html>
     <title>
-        Home
+        Sachin | Home
     </title>
     <head>
 		<meta charset="utf-8">
@@ -13,29 +13,16 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
 		<style>
+			body
+			{
+				background-image: url("background.png");
+				background-position:center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
 			.navbar
 			{
-				margin-left: 0;
-				position: relative;
-				left: 0;
-				top:25%;			
-					
-			}
-			ul
-			{
-				height:10%;
-				width:10%;
-				float:left;
-			}
-			
-			li
-			{	
-				display:block;
-				font-size: 1.5em;
-				left: 0;
-				text-decoration-style: solid;
-				margin-top: 5%;
-			}
+height:10%;			}
 		   
 			#tagline
 			{
@@ -59,20 +46,9 @@
 			}
 			.frontface1
 			{  
-				margin: 0px;
 				background: none;
-				height: auto;
-				width: 100%;
-				height: 100%;
-				top: 0;
-				left: 0;
-				bottom: 0;
-				right: 0;
 				overflow: auto;
-				background-image: url("background.png");
-				background-position:center;
-				background-repeat: no-repeat;
-				background-size: cover;
+				
 			}
 			.social-links
 			{
@@ -82,20 +58,7 @@
 				left: 0;
 				position: absolute;
 			}
-			li
-			{
-				display:block;
-				color: white                   
-				margin: 5px;
-				font-size:100%;
-				z-index: 1;
-				position:relative;
-				text-align: left;               			
-			}
-			li:hover
-			{
-				color:green;
-			}
+		
 			#nameblock
 			{
 				font-size: 300%;	
@@ -109,19 +72,6 @@
 			{
 				text-decoration: none;
 				color: white;
-			}
-			.navbar a:hover
-			{
-			color:white;
-			text-decoration: none;
-			}
-			#tagline:hover
-			{
-			   color : black;
-			}
-			.forbg
-			{
-				background-color: grey !;
 			}
 			.footer
 			{
@@ -137,9 +87,9 @@
 				border-radius:5em;
 				align:center;
 			}
-			strong i
+			li
 			{
-				color:black;
+			display:inline;
 			}
 		</style>
 
@@ -147,17 +97,33 @@
 	</head>
     <body>
         <div class="container-fluid">
+			<div class="row">
+				<div class=" col-sm-12 col-xs-12 col-md-12 col-lg-12">
+					<nav class="navbar navbar-inverse">
+					  <div class="container-fluid">
+						<div class="navbar-header">
+						  <a class="navbar-brand" href="#">>>><br>>>></a>
+						</div>
+						<ul class="nav navbar-nav">
+						  <li class="active"><a href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a></li>
+						  <li><a href="profile.html"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a></li>
+						  <li><a href="got.html"><i class="fa fa-coffee fa-2x" aria-hidden="true"></i></a></li>
+						  <li><a href="#"><i class="fa fa-id-card fa-2x" aria-hidden="true"></i></a></li>
+						  
+						</ul>
+						<form class="navbar-form navbar-left">
+						  <div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						  </div>
+						  <button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					  </div>
+					</nav>
+				</div>
+			</div>
             <div class="row">
 				<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 frontface1">       
-					<div class="navbar">
-						<ul>	
-							<a href="#" target="_blank"><li><i class="fa fa-home" aria-hidden="true"></i></li></a>
-							<a href="profile.html" target="_blank"><li><i class="fa fa-user-circle" aria-hidden="true"></i></li></a>
-							<a href="got.html" target="_blank"><li><i class="fa fa-coffee" aria-hidden="true"></i></li></a>
-							<a href="#" target="_blank"><li><i class="fa fa-phone" aria-hidden="true"></i></li></a>
-							<a href="#" target="_blank"><li><i class="fa fa-phone" aria-hidden="true"></i></li></a>
-						</ul> 
-					</div>
+					
 					<p id="nameblock"><img src="profile.jpg"><br>
 						<span  style="color:Black"><strong>Sachin </strong></span>
 						<span  style="color:Black"><strong> Gaikwad</strong></span>
