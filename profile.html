@@ -16,19 +16,22 @@
 			body
 			{
 				overflow:hidden;
+				background-color:black;
+				color:white;
 			}
 			.header
 			{
-				background:green;
+				background:black;
 				color:white;
 			}
 			.left
 			{
-				background:green;
+				background:black;
 				color:white;
 				height:100%;
 				text-align:center;
 				text-decoration:bold;
+				border-right:1px solid white;
 			}
 			.left img
 			{
@@ -58,8 +61,12 @@
 			{
 				color:white;
 			}
-				
-				
+			table.fixed
+			{
+				table-layout:fixed; 
+				width:100%;
+			}
+
 		</style>
 	</head>
     <body>
@@ -67,13 +74,11 @@
             <div class="row">
 				<nav class="navbar navbar-inverse">
 					  <div class="container-fluid">
-						<div class="navbar-header">
-						  <a class="navbar-brand" href="#">>>><br>>>></a>
-						</div>
+					
 						<ul class="nav navbar-nav">
 						  <li class="active"><a href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a></li>
 						  <li><a href="profile.html"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a></li>
-						  <li><a href="got.html"><i class="fa fa-coffee fa-2x" aria-hidden="true"></i></a></li>
+						  <li><a href="#"><i class="fa fa-coffee fa-2x" aria-hidden="true"></i></a></li>
 						  <li><a href="#"><i class="fa fa-id-card fa-2x" aria-hidden="true"></i></a></li>
 						  
 						</ul>
@@ -93,7 +98,7 @@
 					</br>
 					</br>
 					<img src="profile.jpg" alt="proofile image">
-					<h1 style="font-size:4vw;">Sachin Gaikwad</h1>		
+					<h1 style="font-size:3vw;">Sachin Gaikwad</h1>		
 					<a href="https://www.facebook.com/ranjit.sawant.925" target="_blank">
 						<i class="fa fa-facebook fa-2x" aria-hidden="false"></i>
 					</a>
@@ -107,16 +112,16 @@
 					</a>
 				</div>
 				<div class="col-sm-8 col-xs-8 col-md-8 col-lg-8 right">   
-					<h1 style="background-color:green;width:100%;border:1px solid black;"> Details</h1>
+					<h1 style="background-color:black;color:white;width:66%;border-right:1px outset white;border-bottom:1px outset white;"> Details</h1>
 					<br>
 					<br>
 					<div class="col-sm-8 col-xs-8 col-md-8 col-lg-8 content_div"> 
-						<table class="table table-dark">
+						<table class="table table-dark fixed">
 							<thead>
 								<tr>
 									<th scope="col"><i class="fa fa-pencil-square" aria-hidden="true"></i> Education</th>
 									<th scope="col"></th>
-									<th scope="col"></th>
+									<th scope="col"></th>	
 								</tr>
 							</thead>
 							<tbody>
@@ -145,7 +150,7 @@
 					
 					</div>
 					<div class="col-sm-8 col-xs-8 col-md-8 col-lg-8 content_div"> 
-						<table class="table table-dark">
+						<table class="table table-dark fixed">
 							<thead>
 								<tr>
 									<th scope="col"><i class="fa fa-laptop" aria-hidden="true"></i> Professional</th>
@@ -167,14 +172,14 @@
 								<tr>
 								  <th scope="row"></th>
 								  <td>Experience</td>
-								  <td>2 years</td>
+								  <td>4 years</td>
 								</tr>
 							</tbody>
 							</table>
 					
 					</div>
 					<div class="col-sm-8 col-xs-8 col-md-8 col-lg-8 content_div"> 
-						<table class="table table-dark">
+						<table class="table table-dark fixed">
 							<thead>
 								<tr>
 									<th scope="col"><i class="fa fa-star" aria-hidden="true"></i> Skill Set</th>
@@ -191,7 +196,7 @@
 								<tr>
 								  <th scope="row"></th>
 								  <td>Ecosystem Tools</td>
-								  <td>MapReduce,Hive,Sqoop,Kafka,Pig,Solr</td>
+								  <td>MapReduce,Hive,Sqoop,<br>Kafka,Pig,Solr</td>
 								</tr>
 								<tr>
 								  <th scope="row"></th>
@@ -206,7 +211,7 @@
 								<tr>
 								  <th scope="row"></th>
 								  <td>IDEs</td>
-								  <td>Eclipse,PyCharm</td>
+								  <td>Eclipse,Intellij,PyCharm</td>
 								</tr>
 								<tr>
 								  <th scope="row"></th>
